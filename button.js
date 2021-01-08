@@ -3,7 +3,7 @@ function shareButton() {
     var author = document.getElementById("author");
     var button = document.getElementById("btn");
     var shareImg = document.getElementById("icon");
-    var d = window.matchMedia("(min-width:800px)");
+    var d = window.matchMedia("(min-width:768px)");
 
     if (d.matches) {
         if (share.style.display === "none") {
