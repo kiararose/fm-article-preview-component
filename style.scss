@@ -215,6 +215,10 @@ body {
                 padding: inherit;
             }
 
+            .btn-share:focus {
+                outline: none;
+            }
+
             .btn-share > svg {
                 padding: 10px;
             }
